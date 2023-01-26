@@ -1,0 +1,408 @@
+
+
+============================== 2023-01-23 09:47:50.736855 | 97d9f2b1-fd4a-4515-a6c0-58551d1cfff6 ==============================
+09:47:50.736855 [info ] [MainThread]: Running with dbt=1.0.3
+09:47:50.739856 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+09:47:50.742859 [debug] [MainThread]: Tracking: tracking
+09:47:50.844855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D1605E6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D1605F100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D1605EB30>]}
+09:47:53.821883 [debug] [MainThread]: Executing "git --help"
+09:47:54.055889 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+09:47:54.058889 [debug] [MainThread]: STDERR: "b''"
+09:47:54.062886 [debug] [MainThread]: Acquiring new snowflake connection "debug"
+09:47:54.066889 [debug] [MainThread]: Using snowflake connection "debug"
+09:47:54.071884 [debug] [MainThread]: On debug: select 1 as id
+09:47:54.075885 [debug] [MainThread]: Opening a new connection, currently in state init
+09:47:56.062652 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.99 seconds
+09:47:56.066653 [debug] [MainThread]: On debug: Close
+09:47:56.222661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D16CFB160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D16CF9F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D16CFBB50>]}
+09:47:56.796654 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-01-25 10:52:55.740076 | f6bda627-928e-4901-afd3-5d679a0746f7 ==============================
+10:52:55.740076 [info ] [MainThread]: Running with dbt=1.0.3
+10:52:55.750074 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+10:52:55.752084 [debug] [MainThread]: Tracking: tracking
+10:52:55.842084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BB44BA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BB44BE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BB44BD00>]}
+10:52:58.569161 [debug] [MainThread]: Executing "git --help"
+10:52:58.672139 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+10:52:58.674136 [debug] [MainThread]: STDERR: "b''"
+10:52:58.678140 [debug] [MainThread]: Acquiring new snowflake connection "debug"
+10:52:58.681139 [debug] [MainThread]: Using snowflake connection "debug"
+10:52:58.683139 [debug] [MainThread]: On debug: select 1 as id
+10:52:58.685137 [debug] [MainThread]: Opening a new connection, currently in state init
+10:53:00.865487 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.18 seconds
+10:53:00.867487 [debug] [MainThread]: On debug: Close
+10:53:01.014030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BB448AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BBEC5F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208BBEC67A0>]}
+10:53:01.445783 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-01-25 12:59:43.965058 | d69ae88d-af81-43e8-aba0-744ebc4d7076 ==============================
+12:59:43.965058 [info ] [MainThread]: Running with dbt=1.0.3
+12:59:43.981084 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+12:59:43.981084 [debug] [MainThread]: Tracking: tracking
+12:59:43.989084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F35F5C83A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F35F5C89D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F35F5C8F10>]}
+12:59:47.029766 [debug] [MainThread]: Executing "git --help"
+12:59:47.149787 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+12:59:47.149787 [debug] [MainThread]: STDERR: "b''"
+12:59:47.149787 [debug] [MainThread]: Acquiring new snowflake connection "debug"
+12:59:47.149787 [debug] [MainThread]: Using snowflake connection "debug"
+12:59:47.157763 [debug] [MainThread]: On debug: select 1 as id
+12:59:47.157763 [debug] [MainThread]: Opening a new connection, currently in state init
+12:59:48.447360 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.29 seconds
+12:59:48.447360 [debug] [MainThread]: On debug: Close
+12:59:48.599382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3603C8A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3603C8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3603C8280>]}
+12:59:49.048213 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-01-25 13:00:25.842952 | 8ac2cf5d-83a4-4ce4-bae3-7d0f8f19ade6 ==============================
+13:00:25.842952 [info ] [MainThread]: Running with dbt=1.0.3
+13:00:25.842952 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=True, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, defer=None, state=None, cls=<class 'dbt.task.deps.DepsTask'>, which='deps', rpc_method='deps')
+13:00:25.842952 [debug] [MainThread]: Tracking: tracking
+13:00:25.842952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C636550550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C636550610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6365505B0>]}
+13:00:25.850947 [debug] [MainThread]: Set downloads directory='C:\Users\V4156~1.MUT\AppData\Local\Temp\dbt-downloads-24s7ug0_'
+13:00:25.850947 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+13:00:26.002969 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+13:00:26.002969 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json
+13:00:26.106957 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json 200
+13:00:26.114950 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json
+13:00:26.531791 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json 200
+13:00:26.531791 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+13:00:26.699801 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+13:00:26.731790 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.9.6.json
+13:00:27.053618 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.9.6.json 200
+13:00:27.061623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C636550550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C63756ECA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C63756E8E0>]}
+
+
+============================== 2023-01-25 13:18:37.891228 | 3767cf8d-32f6-45db-a3df-0d9601aece7f ==============================
+13:18:37.891228 [info ] [MainThread]: Running with dbt=1.0.3
+13:18:37.891228 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=True, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, defer=None, state=None, cls=<class 'dbt.task.deps.DepsTask'>, which='deps', rpc_method='deps')
+13:18:37.891228 [debug] [MainThread]: Tracking: tracking
+13:18:37.906854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276B035F4F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276B035F5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276B035F550>]}
+13:18:37.906854 [debug] [MainThread]: Set downloads directory='C:\Users\V4156~1.MUT\AppData\Local\Temp\dbt-downloads-ff5tbbfe'
+13:18:37.906854 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+13:18:38.314893 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+13:18:38.314893 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json
+13:18:38.455962 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json 200
+13:18:38.455962 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json
+13:18:38.660151 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json 200
+13:18:38.676187 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+13:18:38.975572 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+13:18:39.005736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276B035F5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276B137EBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000276B137E610>]}
+
+
+============================== 2023-01-25 13:19:26.475870 | efe76485-8f60-40fc-9e4f-4943af7680f8 ==============================
+13:19:26.475870 [info ] [MainThread]: Running with dbt=1.0.3
+13:19:26.475870 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=True, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, defer=None, state=None, cls=<class 'dbt.task.deps.DepsTask'>, which='deps', rpc_method='deps')
+13:19:26.475870 [debug] [MainThread]: Tracking: tracking
+13:19:26.475870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001166179F550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001166179F610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001166179F5B0>]}
+13:19:26.491499 [debug] [MainThread]: Set downloads directory='C:\Users\V4156~1.MUT\AppData\Local\Temp\dbt-downloads-o9vaek7o'
+13:19:26.491499 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+13:19:26.805724 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+13:19:26.805724 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json
+13:19:26.962448 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json 200
+13:19:26.962448 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json
+13:19:27.339267 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json 200
+13:19:27.339267 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+13:19:27.495962 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+13:19:27.543278 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+13:19:28.014192 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+13:19:28.014192 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+13:19:28.312383 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+13:19:28.406572 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+13:19:28.673088 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+13:19:28.673088 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json
+13:19:28.908741 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json 200
+13:19:28.908741 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+13:19:29.269466 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+13:19:29.332417 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json
+13:19:29.489111 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.7.8.json 200
+13:19:29.489111 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json
+13:19:29.708646 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/0.7.6.json 200
+13:19:29.708646 [info ] [MainThread]: Installing Datavault-UK/dbtvault
+13:19:30.448482 [info ] [MainThread]:   Installed from version 0.7.8
+13:19:30.448482 [info ] [MainThread]:   Updated version available: 0.9.2
+13:19:30.448482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'efe76485-8f60-40fc-9e4f-4943af7680f8', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116627CBDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001166179F790>]}
+13:19:30.448482 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+13:19:32.425123 [info ] [MainThread]:   Installed from version 0.7.6
+13:19:32.425123 [info ] [MainThread]:   Updated version available: 1.0.0
+13:19:32.425123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'efe76485-8f60-40fc-9e4f-4943af7680f8', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116627BE910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116627BEB50>]}
+13:19:32.425123 [info ] [MainThread]: 
+13:19:32.440781 [info ] [MainThread]: Updates available for packages: ['Datavault-UK/dbtvault', 'dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+13:19:32.440781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116627BF280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116627CBD30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116627CBCD0>]}
+
+
+============================== 2023-01-25 13:25:47.112524 | b804abb9-4a89-4974-a54b-4b839248d866 ==============================
+13:25:47.112524 [info ] [MainThread]: Running with dbt=1.0.3
+13:25:47.125350 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, full_refresh=False, show=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, cls=<class 'dbt.task.seed.SeedTask'>, which='seed', rpc_method='seed')
+13:25:47.126313 [debug] [MainThread]: Tracking: tracking
+13:25:47.128306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028108FF79D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028108FF72E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028108FF7340>]}
+13:25:47.191699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028108FF7670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000281090510D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000281090518E0>]}
+
+
+============================== 2023-01-25 13:27:23.529996 | a076a70b-7fa7-4321-8a0b-a956ae424257 ==============================
+13:27:23.529996 [info ] [MainThread]: Running with dbt=1.0.3
+13:27:23.529996 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=False, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, full_refresh=False, show=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, cls=<class 'dbt.task.seed.SeedTask'>, which='seed', rpc_method='seed')
+13:27:23.529996 [debug] [MainThread]: Tracking: tracking
+13:27:23.529996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7D8B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7D8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7D8A30>]}
+13:27:23.561244 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+13:27:23.561244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a076a70b-7fa7-4321-8a0b-a956ae424257', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7E72B0>]}
+13:27:23.561244 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+13:27:23.561244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a076a70b-7fa7-4321-8a0b-a956ae424257', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7E77C0>]}
+13:27:23.576876 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+13:27:23.588430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a076a70b-7fa7-4321-8a0b-a956ae424257', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7D9040>]}
+13:27:25.271670 [debug] [MainThread]: Parsing macros\get_custom_schema.sql
+13:27:25.287305 [debug] [MainThread]: Parsing macros\adapters.sql
+13:27:25.334610 [debug] [MainThread]: Parsing macros\catalog.sql
+13:27:25.350236 [debug] [MainThread]: Parsing macros\materializations\incremental.sql
+13:27:25.365864 [debug] [MainThread]: Parsing macros\materializations\merge.sql
+13:27:25.365864 [debug] [MainThread]: Parsing macros\materializations\seed.sql
+13:27:25.381488 [debug] [MainThread]: Parsing macros\materializations\snapshot.sql
+13:27:25.381488 [debug] [MainThread]: Parsing macros\materializations\table.sql
+13:27:25.392002 [debug] [MainThread]: Parsing macros\materializations\view.sql
+13:27:25.397525 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+13:27:25.413183 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+13:27:25.428805 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+13:27:25.428805 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+13:27:25.444430 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+13:27:25.444430 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+13:27:25.460065 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+13:27:25.475690 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+13:27:25.475690 [debug] [MainThread]: Parsing macros\etc\statement.sql
+13:27:25.492321 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+13:27:25.492321 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+13:27:25.492321 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+13:27:25.492321 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+13:27:25.492321 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+13:27:25.507338 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+13:27:25.507338 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+13:27:25.507338 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+13:27:25.507338 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+13:27:25.522982 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+13:27:25.538608 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+13:27:25.554232 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+13:27:25.554232 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+13:27:25.569857 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+13:27:25.601508 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+13:27:25.601508 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+13:27:25.617149 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+13:27:25.617149 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+13:27:25.632777 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+13:27:25.632777 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+13:27:25.648404 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+13:27:25.664029 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+13:27:25.679657 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+13:27:25.695690 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+13:27:25.711330 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+13:27:25.726955 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+13:27:25.758215 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+13:27:25.758215 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+13:27:25.758215 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+13:27:25.773831 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+13:27:25.773831 [debug] [MainThread]: Parsing macros\internal\alias.sql
+13:27:25.773831 [debug] [MainThread]: Parsing macros\internal\alias_all.sql
+13:27:25.789454 [debug] [MainThread]: Parsing macros\internal\as_constant.sql
+13:27:25.792975 [debug] [MainThread]: Parsing macros\internal\check_required_parameters.sql
+13:27:25.792975 [debug] [MainThread]: Parsing macros\internal\expand_column_list.sql
+13:27:25.792975 [debug] [MainThread]: Parsing macros\internal\is_checks.sql
+13:27:25.805500 [debug] [MainThread]: Parsing macros\internal\multikey.sql
+13:27:25.805500 [debug] [MainThread]: Parsing macros\internal\prepend_generated_by.sql
+13:27:25.805500 [debug] [MainThread]: Parsing macros\internal\stage_processing_macros.sql
+13:27:25.821144 [debug] [MainThread]: Parsing macros\materialisations\period_mat_helpers.sql
+13:27:25.852398 [debug] [MainThread]: Parsing macros\materialisations\rank_mat_helpers.sql
+13:27:25.868018 [debug] [MainThread]: Parsing macros\materialisations\shared_helpers.sql
+13:27:25.868018 [debug] [MainThread]: Parsing macros\materialisations\vault_insert_by_period_materialization.sql
+13:27:25.899671 [debug] [MainThread]: Parsing macros\materialisations\vault_insert_by_rank_materialization.sql
+13:27:25.930944 [debug] [MainThread]: Parsing macros\staging\derive_columns.sql
+13:27:25.930944 [debug] [MainThread]: Parsing macros\staging\hash_columns.sql
+13:27:25.946570 [debug] [MainThread]: Parsing macros\staging\rank_columns.sql
+13:27:25.962190 [debug] [MainThread]: Parsing macros\staging\source_columns.sql
+13:27:25.962190 [debug] [MainThread]: Parsing macros\staging\stage.sql
+13:27:25.977814 [debug] [MainThread]: Parsing macros\supporting\current_timestamp.sql
+13:27:25.977814 [debug] [MainThread]: Parsing macros\supporting\datatypes.sql
+13:27:25.977814 [debug] [MainThread]: Parsing macros\supporting\date_timestamp.sql
+13:27:25.977814 [debug] [MainThread]: Parsing macros\supporting\hash.sql
+13:27:25.993331 [debug] [MainThread]: Parsing macros\supporting\max_datetime.sql
+13:27:25.993331 [debug] [MainThread]: Parsing macros\supporting\prefix.sql
+13:27:26.008981 [debug] [MainThread]: Parsing macros\tables\eff_sat.sql
+13:27:26.024599 [debug] [MainThread]: Parsing macros\tables\hub.sql
+13:27:26.040225 [debug] [MainThread]: Parsing macros\tables\link.sql
+13:27:26.071474 [debug] [MainThread]: Parsing macros\tables\ma_sat.sql
+13:27:26.093613 [debug] [MainThread]: Parsing macros\tables\sat.sql
+13:27:26.103124 [debug] [MainThread]: Parsing macros\tables\t_link.sql
+13:27:26.118773 [debug] [MainThread]: Parsing macros\cross_db_utils\cast_bool_to_text.sql
+13:27:26.118773 [debug] [MainThread]: Parsing macros\cross_db_utils\concat.sql
+13:27:26.118773 [debug] [MainThread]: Parsing macros\cross_db_utils\current_timestamp.sql
+13:27:26.134398 [debug] [MainThread]: Parsing macros\cross_db_utils\datatypes.sql
+13:27:26.134398 [debug] [MainThread]: Parsing macros\cross_db_utils\dateadd.sql
+13:27:26.150021 [debug] [MainThread]: Parsing macros\cross_db_utils\datediff.sql
+13:27:26.165645 [debug] [MainThread]: Parsing macros\cross_db_utils\date_trunc.sql
+13:27:26.165645 [debug] [MainThread]: Parsing macros\cross_db_utils\except.sql
+13:27:26.165645 [debug] [MainThread]: Parsing macros\cross_db_utils\hash.sql
+13:27:26.165645 [debug] [MainThread]: Parsing macros\cross_db_utils\identifier.sql
+13:27:26.165645 [debug] [MainThread]: Parsing macros\cross_db_utils\intersect.sql
+13:27:26.165645 [debug] [MainThread]: Parsing macros\cross_db_utils\last_day.sql
+13:27:26.181286 [debug] [MainThread]: Parsing macros\cross_db_utils\length.sql
+13:27:26.181286 [debug] [MainThread]: Parsing macros\cross_db_utils\literal.sql
+13:27:26.181286 [debug] [MainThread]: Parsing macros\cross_db_utils\position.sql
+13:27:26.181286 [debug] [MainThread]: Parsing macros\cross_db_utils\replace.sql
+13:27:26.181286 [debug] [MainThread]: Parsing macros\cross_db_utils\right.sql
+13:27:26.193812 [debug] [MainThread]: Parsing macros\cross_db_utils\safe_cast.sql
+13:27:26.197334 [debug] [MainThread]: Parsing macros\cross_db_utils\split_part.sql
+13:27:26.197334 [debug] [MainThread]: Parsing macros\cross_db_utils\width_bucket.sql
+13:27:26.197334 [debug] [MainThread]: Parsing macros\cross_db_utils\_is_ephemeral.sql
+13:27:26.197334 [debug] [MainThread]: Parsing macros\cross_db_utils\_is_relation.sql
+13:27:26.212988 [debug] [MainThread]: Parsing macros\jinja_helpers\log_info.sql
+13:27:26.212988 [debug] [MainThread]: Parsing macros\jinja_helpers\pretty_log_format.sql
+13:27:26.212988 [debug] [MainThread]: Parsing macros\jinja_helpers\pretty_time.sql
+13:27:26.212988 [debug] [MainThread]: Parsing macros\jinja_helpers\slugify.sql
+13:27:26.212988 [debug] [MainThread]: Parsing macros\materializations\insert_by_period_materialization.sql
+13:27:26.244230 [debug] [MainThread]: Parsing macros\schema_tests\accepted_range.sql
+13:27:26.259902 [debug] [MainThread]: Parsing macros\schema_tests\at_least_one.sql
+13:27:26.259902 [debug] [MainThread]: Parsing macros\schema_tests\cardinality_equality.sql
+13:27:26.259902 [debug] [MainThread]: Parsing macros\schema_tests\equality.sql
+13:27:26.259902 [debug] [MainThread]: Parsing macros\schema_tests\equal_rowcount.sql
+13:27:26.275522 [debug] [MainThread]: Parsing macros\schema_tests\expression_is_true.sql
+13:27:26.275522 [debug] [MainThread]: Parsing macros\schema_tests\fewer_rows_than.sql
+13:27:26.275522 [debug] [MainThread]: Parsing macros\schema_tests\mutually_exclusive_ranges.sql
+13:27:26.294133 [debug] [MainThread]: Parsing macros\schema_tests\not_accepted_values.sql
+13:27:26.294133 [debug] [MainThread]: Parsing macros\schema_tests\not_constant.sql
+13:27:26.294133 [debug] [MainThread]: Parsing macros\schema_tests\not_null_proportion.sql
+13:27:26.294133 [debug] [MainThread]: Parsing macros\schema_tests\recency.sql
+13:27:26.307156 [debug] [MainThread]: Parsing macros\schema_tests\relationships_where.sql
+13:27:26.307156 [debug] [MainThread]: Parsing macros\schema_tests\sequential_values.sql
+13:27:26.307156 [debug] [MainThread]: Parsing macros\schema_tests\test_not_null_where.sql
+13:27:26.307156 [debug] [MainThread]: Parsing macros\schema_tests\test_unique_where.sql
+13:27:26.307156 [debug] [MainThread]: Parsing macros\schema_tests\unique_combination_of_columns.sql
+13:27:26.322799 [debug] [MainThread]: Parsing macros\sql\date_spine.sql
+13:27:26.322799 [debug] [MainThread]: Parsing macros\sql\generate_series.sql
+13:27:26.338428 [debug] [MainThread]: Parsing macros\sql\get_column_values.sql
+13:27:26.338428 [debug] [MainThread]: Parsing macros\sql\get_query_results_as_dict.sql
+13:27:26.338428 [debug] [MainThread]: Parsing macros\sql\get_relations_by_pattern.sql
+13:27:26.354058 [debug] [MainThread]: Parsing macros\sql\get_relations_by_prefix.sql
+13:27:26.354058 [debug] [MainThread]: Parsing macros\sql\get_tables_by_pattern_sql.sql
+13:27:26.369674 [debug] [MainThread]: Parsing macros\sql\get_tables_by_prefix_sql.sql
+13:27:26.369674 [debug] [MainThread]: Parsing macros\sql\groupby.sql
+13:27:26.369674 [debug] [MainThread]: Parsing macros\sql\haversine_distance.sql
+13:27:26.385343 [debug] [MainThread]: Parsing macros\sql\nullcheck.sql
+13:27:26.385343 [debug] [MainThread]: Parsing macros\sql\nullcheck_table.sql
+13:27:26.385343 [debug] [MainThread]: Parsing macros\sql\pivot.sql
+13:27:26.394395 [debug] [MainThread]: Parsing macros\sql\safe_add.sql
+13:27:26.394395 [debug] [MainThread]: Parsing macros\sql\star.sql
+13:27:26.401450 [debug] [MainThread]: Parsing macros\sql\surrogate_key.sql
+13:27:26.401450 [debug] [MainThread]: Parsing macros\sql\union.sql
+13:27:26.417097 [debug] [MainThread]: Parsing macros\sql\unpivot.sql
+13:27:26.432759 [debug] [MainThread]: Parsing macros\web\get_url_host.sql
+13:27:26.432759 [debug] [MainThread]: Parsing macros\web\get_url_parameter.sql
+13:27:26.432759 [debug] [MainThread]: Parsing macros\web\get_url_path.sql
+13:27:27.123536 [debug] [MainThread]: 1603: static parser failed on raw_vault\effsats\effsat_cust_prdct_cust_history_v0_1_0.sql
+13:27:27.233372 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\effsats\effsat_cust_prdct_cust_history_v0_1_0.sql
+13:27:27.233372 [debug] [MainThread]: 1603: static parser failed on raw_vault\effsats\effsat_cust_prdct_cust_history_v0_2_0.sql
+13:27:27.249033 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\effsats\effsat_cust_prdct_cust_history_v0_2_0.sql
+13:27:27.249033 [debug] [MainThread]: 1603: static parser failed on raw_vault\effsats\effsat_cust_prdct_store_checkout_v0_1_0.sql
+13:27:27.264628 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\effsats\effsat_cust_prdct_store_checkout_v0_1_0.sql
+13:27:27.280251 [debug] [MainThread]: 1603: static parser failed on raw_vault\effsats\effsat_cust_prdct_store_checkout_v0_2_0.sql
+13:27:27.327624 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\effsats\effsat_cust_prdct_store_checkout_v0_2_0.sql
+13:27:27.327624 [debug] [MainThread]: 1603: static parser failed on raw_vault\hubs\hub_customer.sql
+13:27:27.358866 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\hubs\hub_customer.sql
+13:27:27.374448 [debug] [MainThread]: 1603: static parser failed on raw_vault\hubs\hub_product.sql
+13:27:27.374448 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\hubs\hub_product.sql
+13:27:27.390110 [debug] [MainThread]: 1603: static parser failed on raw_vault\links\link_customer_product_cust_history.sql
+13:27:27.421885 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\links\link_customer_product_cust_history.sql
+13:27:27.421885 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_crm_system_customer_details_v0_1_0.sql
+13:27:27.453102 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_crm_system_customer_details_v0_1_0.sql
+13:27:27.453102 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_crm_system_customer_details_v0_1_1.sql
+13:27:27.468723 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_crm_system_customer_details_v0_1_1.sql
+13:27:27.468723 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_product_db_products_v0_1_0.sql
+13:27:27.468723 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_product_db_products_v0_1_0.sql
+13:27:27.484348 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_store_iot_device_customer_visits_v0_1_0.sql
+13:27:27.496862 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_store_iot_device_customer_visits_v0_1_0.sql
+13:27:27.496862 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_store_tills_products_v0_1_0.sql
+13:27:27.500372 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_store_tills_products_v0_1_0.sql
+13:27:27.500372 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_tills_products_v0_1_0.sql
+13:27:27.516047 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_tills_products_v0_1_0.sql
+13:27:27.531670 [debug] [MainThread]: 1603: static parser failed on raw_vault\sats\sat_tills_products_v0_2_0.sql
+13:27:27.531670 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\sats\sat_tills_products_v0_2_0.sql
+13:27:27.531670 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_customers_v0_1_0.sql
+13:27:27.641555 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_customers_v0_1_0.sql
+13:27:27.657175 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_customers_v0_1_1.sql
+13:27:27.672840 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_customers_v0_1_1.sql
+13:27:27.672840 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_customer_purchase_history_v0_1_0.sql
+13:27:27.688427 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_customer_purchase_history_v0_1_0.sql
+13:27:27.688427 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_customer_purchase_history_v0_2_0.sql
+13:27:27.704455 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_customer_purchase_history_v0_2_0.sql
+13:27:27.704455 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_customer_visits_v0_1_0.sql
+13:27:27.720099 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_customer_visits_v0_1_0.sql
+13:27:27.720099 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_products_v0_1_0.sql
+13:27:27.735763 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_products_v0_1_0.sql
+13:27:27.735763 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_transactions_v0_1_0.sql
+13:27:27.751388 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_transactions_v0_1_0.sql
+13:27:27.751388 [debug] [MainThread]: 1603: static parser failed on raw_vault\stages\stg_transactions_v0_2_0.sql
+13:27:27.767008 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\stages\stg_transactions_v0_2_0.sql
+13:27:27.767008 [debug] [MainThread]: 1603: static parser failed on raw_vault\trans_links\trans_link_customer_product_store_checkout.sql
+13:27:27.782640 [debug] [MainThread]: 1602: parser fallback to jinja rendering on raw_vault\trans_links\trans_link_customer_product_store_checkout.sql
+13:27:28.018391 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.raw_vault.stages
+
+13:27:28.018391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a076a70b-7fa7-4321-8a0b-a956ae424257', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333DC7BAF0>]}
+13:27:28.049646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a076a70b-7fa7-4321-8a0b-a956ae424257', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333D7D9A30>]}
+13:27:28.049646 [info ] [MainThread]: Found 23 models, 21 tests, 0 snapshots, 0 analyses, 438 macros, 0 operations, 5 seed files, 8 sources, 0 exposures, 0 metrics
+13:27:28.049646 [info ] [MainThread]: 
+13:27:28.049646 [debug] [MainThread]: Acquiring new snowflake connection "master"
+13:27:28.049646 [debug] [ThreadPool]: Acquiring new snowflake connection "list_AUTOVAULT"
+13:27:28.080887 [debug] [ThreadPool]: Using snowflake connection "list_AUTOVAULT"
+13:27:28.080887 [debug] [ThreadPool]: On list_AUTOVAULT: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "default", "target_name": "dev", "connection_name": "list_AUTOVAULT"} */
+
+    show terse schemas in database AUTOVAULT
+    limit 10000
+13:27:28.080887 [debug] [ThreadPool]: Opening a new connection, currently in state init
+13:27:30.372637 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01a9e2e7-0000-3dc9-0000-e6a90002403e
+13:27:30.372637 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+13:27:30.372637 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+13:27:30.372637 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+13:27:30.372637 [debug] [ThreadPool]: On list_AUTOVAULT: Close
+13:27:30.544850 [debug] [MainThread]: Connection 'master' was properly closed.
+13:27:30.544850 [debug] [MainThread]: Connection 'list_AUTOVAULT' was properly closed.
+13:27:30.544850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333DC7B640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333DC7B310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002333DC165B0>]}
+
+
+============================== 2023-01-25 18:58:37.012237 | eb9019b9-585f-457a-84b4-893d3c136a34 ==============================
+18:58:37.012237 [info ] [MainThread]: Running with dbt=1.0.3
+18:58:37.012237 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, defer=None, state=None, cls=<class 'dbt.task.deps.DepsTask'>, which='deps', rpc_method='deps')
+18:58:37.012237 [debug] [MainThread]: Tracking: tracking
+18:58:37.027864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F869F28550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F869F28610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F869F285B0>]}
+18:58:37.027864 [debug] [MainThread]: Set downloads directory='C:\Users\V4156~1.MUT\AppData\Local\Temp\dbt-downloads-ttm3r8r9'
+18:58:37.027864 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+18:58:37.314792 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+18:58:37.314792 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json
+18:58:37.546937 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json 200
+18:58:37.561999 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.8.1.json
+18:58:37.860410 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.8.1.json 200
+18:58:37.860410 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+18:58:38.079580 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+18:58:38.126452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F869F28640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F86AF33640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F86AF33040>]}
+
+
+============================== 2023-01-25 18:59:41.838889 | cbdab6f7-9036-479d-8ff1-b6771ef80841 ==============================
+18:59:41.838889 [info ] [MainThread]: Running with dbt=1.0.3
+18:59:41.838889 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\v.muthuraghavan\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, defer=None, state=None, cls=<class 'dbt.task.deps.DepsTask'>, which='deps', rpc_method='deps')
+18:59:41.838889 [debug] [MainThread]: Tracking: tracking
+18:59:41.854511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3AA8D8580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3AA8D8640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3AA8D85E0>]}
+18:59:41.854511 [debug] [MainThread]: Set downloads directory='C:\Users\V4156~1.MUT\AppData\Local\Temp\dbt-downloads-atei75ud'
+18:59:41.854511 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+18:59:42.262827 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+18:59:42.262827 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json
+18:59:42.686699 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault.json 200
+18:59:42.686699 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.8.1.json
+18:59:42.953891 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/Datavault-UK/dbtvault/0.8.1.json 200
+18:59:42.953891 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+18:59:43.079429 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+18:59:43.111128 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json
+18:59:43.362184 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils/1.0.0.json 200
+18:59:43.362184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3AA8D8670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3AA9149A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3AA9141F0>]}

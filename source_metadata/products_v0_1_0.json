@@ -1,0 +1,44 @@
+{
+  "table_description": "xxx",
+  "unit_of_work": "CATALOGUE",
+  "source_name": "PRODUCTS",
+  "version": "0_1_0",
+  "source_system": "PRODUCT_DB",
+  "destination_database": "AUTOVAULT",
+  "destination_schema": "PUBLIC",
+  "business_topics": {
+    "PRODUCT": {
+      "business_keys": {
+        "PRODUCT_ID": {
+          "description": "Business key PRODUCT_V1",
+          "type": "STRING",
+          "tests": {
+            "unique": true,
+            "not_null": true
+          }
+        }
+      },
+      "business_attributes": [
+        {
+          "business_definition": "PRODUCTS",
+          "payload": {
+            "MAKE": {
+              "type": "STRING",
+              "tests": {
+                "unique": true,
+                "not_null": true
+              }
+            },
+            "MODEL": {
+              "type": "STRING",
+              "tests": {
+                "unique": true,
+                "not_null": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

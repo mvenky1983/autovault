@@ -1,0 +1,39 @@
+{
+  "table_description": "xxx",
+  "unit_of_work": "CUST_VSTS",
+  "source_name": "CUSTOMER_VISITS",
+  "version": "0_1_0",
+  "source_system": "STORE_IOT_DEVICE",
+  "destination_database": "AUTOVAULT",
+  "destination_schema": "PUBLIC",
+  "business_topics": {
+    "CUSTOMER": {
+      "ignore_persisting_source_to_hub_model": true,
+      "business_keys": {
+        "CUST_ID": {
+          "description": "Business key CUSTOMER_VISITS_V1",
+          "alias": "CUSTOMER_ID",
+          "type": "STRING",
+          "tests": {
+            "unique": true,
+            "not_null": true
+          }
+        }
+      },
+      "business_attributes": [
+        {
+          "business_definition": "CUSTOMER_VISITS",
+          "payload": {
+            "TOTAL_VISITS": {
+              "type": "STRING",
+              "tests": {
+                "unique": true,
+                "not_null": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
